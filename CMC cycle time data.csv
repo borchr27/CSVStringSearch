@@ -1,0 +1,63 @@
+﻿close 6 ft curtain,2,s
+rotate trunian 90,1.5,s
+servo move,1000,mm/s
+extend shot pin,1,s
+retract shot pin,1,s
+open clamps,1,s
+close clamps,1,s
+automated home to home end effector change,15,s
+robotic linear mig weld,12.7,mm/s
+robotic circular mig weld,8.5,mm/s
+robotic linear mig aluminum,18,mm/s
+robotic cirular mig aluminum,12,mm/s
+torch clean,4,s
+6ft move to torch clean,1,s
+arc on,1,s
+tip dress,2.5,s
+feed and weld nut or stud,3.5,s
+spot weld,1.5,s
+robotic tox,2.5,s
+install riv nut,2.9,s
+staple,1.5,s
+insert clip or tree,3,s
+obtain torque wrench,1.5,s
+drive and torque bolt or nut with 1 inch or less of travel,3,s
+dispose torque wrench,1.5,s
+obtain and load deadener patch,17,s
+manually apply sealer tape,0.023,s/mm
+remove tape from paper,0.011,s/mm
+get tape removal started,0.9,s
+pierce unit including clamp extend pierce retract,3.5,s
+apply extruded adhesive bead,250,mm/s
+walk,0.3,ft/s
+turn 90,0.6,s
+turn 180,1.2,s
+close clamps,1.5,s
+press palm buttons,1,s
+set aside large cardboard dunnage,4.8,s
+hand start bolt nut,2.4,s
+obtain very small part from table,1.2,s
+obtain small part from table,1.2,s
+obtain medium part from table,1.8,s
+obtain large part from table,3,s
+obtain very small part from rack or large container,1.8,s
+obtain small part from rack or large container,1.8,s
+obtain medium part from rack or large container,2.4,s
+obtain large part from rack large container,4.2,s
+load very small part to fixture,1.8,s
+load small part to fixture,1.8,s
+load medium part to fixture,3,s
+load large part to fixture,4.2,s
+bulk pack very small part,1.2,s
+bulk pack small part,1.2,s
+bulk pack medium part,1.8,s
+bulk pack large part,2.4,s
+obtain load assist,1.2,s
+lower load assist,3,s
+raise load assist,4,s
+close clamps,1.2,s
+dispose of load assist,1.2,s
+load part to fixture or rack including lower load assist open clamps raise assist,12.5,s
+unload part to fixture or rack including lower load assist open clamps raise assist,12.5,s
+walk with load assist,0.5,s
+park load assist,1.2,s
